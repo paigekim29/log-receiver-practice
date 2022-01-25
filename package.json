@@ -1,0 +1,27 @@
+{
+  "name": "log-receiver-practice",
+  "version": "1.0.0",
+  "description": "log-receiver-practice",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^14.3.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.4.0",
+    "winston-daily-rotate-file": "^4.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paigekim29/log-receiver-practice.git"
+  },
+  "author": "paigekim29",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paigekim29/log-receiver-practice/issues"
+  },
+  "homepage": "https://github.com/paigekim29/log-receiver-practice#readme"
+}
